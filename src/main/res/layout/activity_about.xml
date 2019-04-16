@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".aboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/back">
+
+        <TextView
+            android:id="@+id/back"
+            android:background="@drawable/back_new"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:gravity="center"
+        android:layout_gravity="center"
+            android:text="@string/about_app"
+            android:layout_width="200dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></LinearLayout>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@mipmap/ic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/about_tv1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/about_tv2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <TextView
+                android:background="@drawable/me"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <TextView
+                android:text="@string/about_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"></LinearLayout>
+        <LinearLayout
+            android:background="@color/gray"
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/github"
+                android:gravity="center"
+                android:background="@color/white"
+                android:text="@string/about_tv4"
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        <Button
+            android:id="@+id/score"
+            android:layout_marginTop="1dp"
+            android:text="@string/about_tv5"
+            android:gravity="center"
+            android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+         <TextView
+             android:background="@color/gray"
+             android:layout_width="match_parent"
+             android:layout_height="1dp" />
+        <Button
+            android:id="@+id/chatonqq"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_marginBottom="1dp"
+            android:text="@string/about_tv6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
